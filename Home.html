@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodable</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="icon" href="images/foodable logo title.png" sizes="16x16 32x32"
+    type="image/png" />
+    <script src="/javascript/Main.js"></script>
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <nav class="navbar">
+      <!-- left side -->
+      <div class="left">
+        <!-- logo -->
+        <div class="logo">
+          <a href="Home.html"
+            ><img class="Logoimg" src="images2/images/foodable logo 2.png"
+          /></a>
+        </div>
+        <!-- navigation options -->
+        <ul class="navlist">
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="#contactus">Contact Us</a></li>
+          <li><a href="#joinus">Join us</a></li>
+        </ul>
+      </div>
+      <!-- right wali sideo -->
+      <div class="rightside">
+        <!-- login Dropdown -->
+        <div class="LoginDrop">
+          <a href="login.php">
+          <button onclick="Dropdown()" class="User">
+          
+            <img class="loginlogo" src="images/user (1).png" alt="User" />
+          </button>
+        </a>
+          <!-- <div id="ACC" class="Dropdown">
+            <ul class="DropDownList">
+                <li><a href="">Signin</a></li>
+                <li><a href="">Login</a></li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+    </nav>
+    <!-- background -->
+    <div class="container">
+      <h1 class="Heading">WE ARE <span class="auto-type"></span></h1>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["CHARITY", "CONTRIBUTORS", "FOODABLE"],
+        typeSpeed: 80,
+        backSpeed: 80,
+        loop: true,
+      });
+    </script>
+    <!-- <hr> -->
+    <div class="info" id="joinus">
+      <div class="Accwork">Connect And help us On our mission</div>
+      <div class="RegisterLogin">
+        <div class="PageLogin">
+          <a href="login.php">
+            <button>LOGIN</button>
+          </a>
+        </div>
+        <div class="PageSign">
+          <a href="SignUp.php">
+            <button>SIGN UP</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- form -->
+    <div class="contactus" id="contactus">
+      <h1 align="center">Contact us</h1>
+      <form class="Contact us form">
+        <br />
+        <label>Email :</label>
+        <a id="Email" href="mailto:">Helpinghand@foodable.com</a>
+        <br />
+        <label>Contact number : </label>
+        <a id="numbert" href="tel:+9112345678">+91 7203919628</a>
+      </form>
+    </div>
+  </body>
+</html>

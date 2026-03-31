@@ -1,0 +1,10 @@
+#mouse
+{
+    width: 10px;
+    height: 10px;
+    background-color: #ff981a;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+
+}

@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.navbar {
+    color: white;
+
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #101010;
+}
+
+.left {
+    display: flex;
+    width: 50%;
+}
+
+.Logo {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Logo img {
+    border-radius: 50%;
+}
+
+.foodablelogo {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+
+}
+
+.navoptions {
+    width: 85%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.navoptions ul {
+    display: flex;
+    align-items: left;
+    /* justify-content: center; */
+}
+
+.navoptions ul li {
+    padding: 20px;
+    padding-top: 25px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    transition: .4s;
+}
+
+.navoptions ul li:hover {
+    padding: 30px;
+    padding-top: 25px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 5px;
+    background-color: #f3c98b;
+}
+
+.navoptions ul li a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.right {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    width: 50%;
+}
+.right ul li {
+    padding: 20px;
+    padding-top: 25px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    transition: .4s;
+}
+
+.right ul li:hover {
+    padding: 30px;
+    padding-top: 25px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 5px;
+    background-color: #f3c98b;
+}
+    
+.right ul li a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Profilephoto {
+
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Profilephoto img {
+    border-radius: 50%;
+
+}
+
+.menubar {
+    width: 100%;
+    text-align: center;
+    background-color: #ff981a;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #ff981a;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.sidenav a input {
+    color: white;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.sidenav a input:hover {
+    font-weight: 600;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    color: black;
+    background-color: #ff981a;
+    border: none;
+    cursor: pointer;
+}
+
+#menu {
+    /* margin: 0px 5px; */
+    transition: .3s;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#menu:hover {
+    margin: 0px 5px;
+    border-radius: 5px;
+    background-color: rgb(25, 25, 25);
+    font-size: 22px;
+    color: white;
+    padding: 2px 50px;
+}
+body {
+    background-color: white;
+
+}
+
+.navbar {
+    position: sticky;
+}
+
+.videoarea {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    background-image: linear-gradient(#f3c98b 70%, white 95%);
+}
+
+.video-section {
+    height: 92%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-section video {
+    width: 75%;
+    height: fit-content;
+    border-radius: 40px;
+    position: static;
+    transform: scalex(1.2) scaleY(.9);
+    box-shadow: 0px 0px 62px -16px #282828;
+}
+
+.tops {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+
+}
+
+.topdonation {
+    padding: 0px 50px;
+    border-bottom: 3px solid black;
+}
+
+.tables {
+    display: flex;
+}
+
+.left-table {
+    width: 50%;
+    padding: 20px;
+}
+
+.left-table table {
+    width: 95%;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+
+tr {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    transition: .2s;
+}
+
+tr:hover {
+    background-color: #ff981a13;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+
+.foodimg {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.right-table {
+    width: 50%;
+    padding: 20px;
+}
+
+.right-table table {
+    width: 90%;
+    padding: 20px 20px;
+    border-radius: 15px;
+}
+
+.foodimg:hover {
+    width: 85px;
+    height: 85px;
+}

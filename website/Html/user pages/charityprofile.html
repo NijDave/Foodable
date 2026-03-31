@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Html/user pages/userpage css/charity.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      href="/images/foodable logo title.png"
+      sizes="16x16 32x32"
+      type="image/png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <title>Charity Profile</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="left">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="#">Home</a>
+          <a href="#">Restaurents</a>
+          <a href="#">Groceries</a>
+          <a href="#">profile</a>
+          <a href="#">Logout</a>
+        </div>
+
+        <span onclick="openNav()" class="hamburger"
+          ><button><img src="/images/hamburger.png" alt="" /></button
+        ></span>
+      </div>
+      <div class="right">
+        <!-- <span class="charityname">charityname</span>     -->
+        <div class="profile">
+          <a href="#"
+            ><img
+              src="/images/blank-profile-picture-973460__340.png"
+              alt="user"
+              width="10%"
+              height="10%"
+          /></a>
+        </div>
+      </div>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft = "0";
+        }
+      </script>
+      <script src="/javascript/charityprofile.js"></script>
+    </div>
+    <div class="profile-update">
+      <table align="center" class="profiletable">
+        <tr>
+          <td align="right">
+            <img
+              src="/images/blank-profile-picture-973460__340.png"
+              alt=""
+              width="45%"
+              height="45%"
+              class="person logo"
+            />
+          </td>
+          <td>
+            <h1>
+              <span id="Charityname"> Charity Name </span>
+            </h1>
+          </td>
+        </tr>
+        <tr>
+          <td align="right" class="ImageInput">
+            <input
+              type="file"
+              name="file"
+              id="ImageFile"
+              accept="image/png, image/jpg"
+            /><label for="ImageFile" class="choosefile">Choose your file</label>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+      <div class="profileDetails">
+        <div class="profilearea">
+          <div class="infoarea">
+            <!-- <ul class="CharityDetails">
+              <li>
+                <label for="stateCharity">State</label>
+                <select name="state" id="State" class="State-select">
+                  <option value="Gujarat">Gujarat</option>
+                  <option value="Rajasthan">Rajasthan</option>
+                  <option value="Maharastra">Maharastra</option>
+                  <option value="Uttar pradesh">Uttar pradesh</option>
+                  <option value="Tamil nadu">Tamil nadu</option>
+                </select>
+              </li>
+              <li>
+                Number Donation:
+                <input
+                  type="number"
+                  name="Number of donation"
+                  id="NumberDonation"
+                />
+              </li>
+              <li>
+                FranchiseName:
+                <span id="NameofFranchise">Name of Franchise</span>
+              </li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

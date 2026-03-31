@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+}
+body
+{
+    background-color: rgb(20, 20, 20);
+}
+.navbar {
+    color: white;
+
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(20, 20, 20);
+}
+
+.left {
+    display: flex;
+    width: 50%;
+}
+
+.Logo {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.navoptions {
+    width: 85%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.navoptions ul {
+    display: flex;
+    align-items: left;
+    /* justify-content: center; */
+}
+
+.navoptions ul li {
+    padding: 20px;
+    padding-top: 25px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    transition: .4s;
+}
+
+.navoptions ul li:hover {
+    padding: 30px;
+    padding-top: 25px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    border-radius: 5px;
+    background-color: #ff981a;
+}
+
+.navoptions ul li a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.right {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    width: 50%;
+}
+
+.Profilephoto {
+
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menubar
+{
+    width: 100%;
+    text-align: center;
+    background-color: #ff981a;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #ff981a;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+.sidemenu-opts a input
+{
+    color: white;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+.sidemenu-opts a input:hover
+{
+    color: black;
+    font-weight: 600;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ff981a;
+    border: none;
+    cursor: pointer;
+}
+#menu
+{
+    /* margin: 0px 5px; */
+    transition: .3s;
+    font-size: 20px;
+    cursor: pointer;
+}
+#menu:hover
+{
+    margin: 0px 5px;
+    border-radius: 5px;
+    background-color: rgb(25, 25, 25);
+    font-size: 22px;
+    color: white;
+    padding: 2px 50px;
+}
+.cards
+{
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(20, 20, 20);
+    display:flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.table-responsive
+{
+    
+    width: 90%;
+    height: fit-content;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+table
+{   
+    background-color: rgb(35, 35, 35);
+    color: #ff981a;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    transition: .3s;
+    cursor: pointer;
+
+}
+table:hover
+{   
+    background-color: rgb(55, 55, 55);
+    color: #ffffff;
+    width: 100%;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+
+.Name
+{
+    font-size: 40px;
+}

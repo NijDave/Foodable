@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.left {
+  /* background-color: yellow; */
+  width: 25%;
+  height: 100%;
+  background-color: rgb(25, 25, 25);
+  color: white;
+  display: inline;
+}
+
+.left div {
+  margin: 30px 10px;
+  text-align: center;
+}
+
+.leftlower {
+  background-color: crimson;
+}
+
+.logo img {
+  border-radius: 500px;
+  box-shadow: 0px 2.8px 2.2px rgba(0, 0, 0, 0.041),
+    0px 6.7px 5.3px rgba(0, 0, 0, 0.05), 0px 12.5px 10px rgba(0, 0, 0, 0.053),
+    0px 22.3px 17.9px rgba(0, 0, 0, 0.054),
+    0px 41.8px 33.4px rgba(0, 0, 0, 0.056), 0px 100px 80px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+}
+
+.pre {
+  text-align: center;
+}
+
+.SigninLogin {
+  background-color: transparent;
+  border: 5px solid white;
+  color: white;
+  padding: 10px 20px;
+  font-size: larger;
+  border-radius: 50px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0, 0, 0, 1);
+}
+
+.SigninLogin:hover {
+  background-color: white;
+  border: 2px solid rgb(0, 0, 0);
+  color: black;
+  margin: 5px;
+  padding: 5px 15px;
+  font-size: large;
+  font-weight: 900;
+}
+
+.footerright {
+  display: flexbox;
+  position: static;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+}
+
+.right {
+  background-color: #ff9d01;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.loginsection {
+  background-color: rgb(25, 25, 25);
+  width: 80%;
+  height: 70%;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formarea {
+  width: 90%;
+  height: 80%;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.formheading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+}
+.form div {
+  margin-top: 10px;
+}
+
+.name input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.5s;
+}
+.name input:focus {
+  padding: 15px 70px 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  background-color: rgb(33, 33, 33);
+}
+.email input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.5s;
+}
+.email input:focus {
+  padding: 15px 70px 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  background-color: rgb(33, 33, 33);
+}
+.password input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.5s;
+}
+.password input:focus {
+  padding: 15px 70px 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  background-color: rgb(33, 33, 33);
+}
+.address input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.5s;
+}
+.address input:focus {
+  padding: 15px 70px 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  background-color: rgb(33, 33, 33);
+}
+
+.submitbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+.submitbutton input {
+  padding: 10px 30px;
+  border: 5px solid white;
+  color: white;
+  background-color: transparent;
+  font-weight: 900;
+  border-radius: 50px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.submitbutton input:hover {
+  padding: 10px 30px;
+  border: 5px solid white;
+  color: black;
+  background-color: white;
+  font-weight: 800;
+  border-radius: 50px;
+}
+.registercheck
+{
+  padding-top: 20px;
+}
+.registercheck input
+{
+  padding: 10px; 
+
+}

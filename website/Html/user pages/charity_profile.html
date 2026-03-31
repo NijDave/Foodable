@@ -1,0 +1,185 @@
+<html>
+
+<head>
+        <title>Charity Profile</title>
+        <link rel="icon" href="/images/foodable logo title.png" sizes="16x16 32x32" type="image/png" />
+        <link rel="stylesheet" href="/Html/user pages/userpage css/charity.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Condensed:wght@400;700&display=swap"
+            rel="stylesheet" />
+    <style>
+        .stars {
+            display: inline-block;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .stars input[type="radio"] {
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .stars label {
+            float: right;
+            color: #999;
+            margin: 0;
+            padding: 0;
+        }
+
+        .stars label:hover,
+        .stars label:hover~label,
+        .stars input[type="radio"]:checked~label {
+            color: #ffc107;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <div class="navbar">
+        <div class="left">
+            <div class="logo">
+                <img src="/images/foodable logo 2.png" alt="Logo" width="60px" height="60px" />
+            </div>
+            <div class="navigationbuts">
+                <ul>
+                    <a href="/Html/dashboard.html">
+                        <li>Dashboard</li>
+                    </a>
+                    <a href="/Html/grocery.html">
+                        <li>Groceries</li>
+                    </a>
+                    <a href="/Html/Restaurant.html">
+                        <li>Restaurants</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="profilephoto-nav">
+                <img src="/images/blank-profile-picture-973460__340.png" alt="logo" width="60px" height="60px" />
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!-- Navbar Ending -->
+    <!-- profile starting-->
+    <div class="profileheading">
+        <h1>Charity's profile</h1>
+    </div>
+    <div class="profileform">
+        <div class="formarea">
+            <form method="POST" action="">
+                <div class="profiletable">
+                    <table>
+                        <tr colspan="2" rowspan="2">
+                            <td>
+                                <!-- <h3>Profile photo</h3> -->
+                                <div id="profileUploaded">
+                                    <img src="" alt="Uploaded Image" id="preview" style="max-width: 300px" sizes="" />
+                                </div>
+                            </td>
+                            <td>
+                                <p id="Nameofcharity">
+                                    Charity
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="image" class="uploadbutton">Profilephoto</label>
+                                <div id="fileinput">
+                                    <input type="file" name="image" id="image" accept="image/*" />
+                                </div>
+                            </td>
+
+                    </table>
+                </div>
+                <div class="info">
+                    <div class="info-name">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" required />
+                    </div><br />
+
+                    <div class="info-state">
+                        <label for="state">State: </label>
+                        <input type="text" name="state" require />
+                    </div><br />
+                    <div class="numberofdonation">
+                        <label for="Number of donation">Number of donation: </label>
+                        <input type="text" name="Number of donation" require />
+                    </div><br />
+                    <div class="franchise">
+                        <label for="Franchise Name">Franchise Name: </label>
+                        <input type="text" name="Franchise Name" require />
+                    </div><br />
+                </div>
+
+                <body>
+                    <div class="rates">
+                        <div class="ratelabel">
+                            <h3>Ratings</h3>
+                        </div>
+                        <div class="stars">
+                            <input type="radio" name="rating" id="star5" value="5" />
+                            <label for="star5">&#9733;</label>
+                            <input type="radio" name="rating" id="star4" value="4" />
+                            <label for="star4">&#9733;</label>
+                            <input type="radio" name="rating" id="star3" value="3" />
+                            <label for="star3">&#9733;</label>
+                            <input type="radio" name="rating" id="star2" value="2" />
+                            <label for="star2">&#9733;</label>
+                            <input type="radio" name="rating" id="star1" value="1" />
+                            <label for="star1">&#9733;</label>
+                        </div>
+                    </div>
+                    <p id="ratingValue"></p>
+                    <script>
+                        // Get all the stars elements
+                        const stars = document.querySelectorAll(
+                            '.stars input[type="radio"]'
+                        );
+                        // Get the rating value element
+                        const ratingValue = document.getElementById("ratingValue");
+
+                        // Add event listener to each star
+                        stars.forEach((star) => {
+                            star.addEventListener("change", (e) => {
+                                // Update the rating value element with the selected value
+                                ratingValue.textContent = `You rated ${e.target.value} out of 5 stars.`;
+                            });
+                        });
+                    </script>
+                </body>
+                <script>
+                    document
+                        .getElementById("image")
+                        .addEventListener("change", function (e) {
+                            var file = e.target.files[0];
+                            var reader = new FileReader();
+                            reader.onload = function (event) {
+                                document
+                                    .getElementById("preview")
+                                    .setAttribute("src", event.target.result);
+                            };
+                            reader.readAsDataURL(file);
+                        });
+                </script>
+                <br />
+                <div class="Submit-form">
+                    <input type="submit" value="UPLOAD" />
+
+                    <input type="submit" name="SUBMIT" />
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+body
+{
+    background-color: rgb(20, 20, 20);
+}
+.table-responsive
+{
+    margin: 20px 0px;
+    width: 100%;
+    height: fit-content;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+.cards
+{
+    width: 95%;
+    display: inline;
+    justify-content: center;
+}
+#name
+{
+    font-size: 40px;
+}
+.cards table
+{
+    margin: 15px 20px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 95%;
+    background-color: rgb(35, 35, 35);
+    color: #ff891a;
+}
+
+#chat a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 25px 45px;
+    transition: .3s;
+}
+
+#chat a:hover
+{
+    font-size: 20px;
+    padding: 25px 45px;
+    text-decoration: none;
+    border-radius: 50% 5px;
+    background-color: #ff981a;
+    color: white;
+}

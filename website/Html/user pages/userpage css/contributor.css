@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.navbar {
+  color: white;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(0, 0, 1);
+  display: flex;
+}
+.navbar ul a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.left {
+  width: 50%;
+  display: flex;
+}
+.logo {
+  height: 100%;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blue; */
+}
+.logo img {
+  border-radius: 50px;
+  cursor: pointer;
+}
+.navigationbuts ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: 0px 0px 0px 10px;
+  /* background-color: chocolate; */
+}
+.navigationbuts ul li {
+  display: flex;
+  /* height: 100%; */
+
+  padding: 20px;
+  transition: all 0.5s;
+  font-weight: 400;
+}
+.navigationbuts ul li:hover {
+  color: black;
+  display: flex;
+  font-size: large;
+  padding: 30px;
+  border-radius: 6px;
+  background-color: #ff981a;
+}
+
+.navigationbuts ul li a {
+  padding: 10px;
+  /* background-color: chocolate; */
+}
+
+.right {
+  width: 50%;
+  text-align: right;
+}
+.profilephoto-nav {
+  padding: 5px;
+}
+.profilephoto-nav img {
+  border-radius: 50px;
+  cursor: pointer;
+}
+.profileheading {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+.profileform
+{
+  width: 100%;
+  height: 37vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formarea
+{
+  /* background-color: black; */
+  width: 75%;
+  height: 69%;
+  padding: 1%;
+
+}
+.profiletable
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: ; */
+}
+/* #profileUploaded
+{
+  
+} */
+#profileUploaded img
+{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 6px solid #000;
+}
+#Nameofcharity
+{
+  font-size: 80px;
+  font-weight: 650;
+}
+#fileinput
+{
+  display: none;
+}
+.uploadbutton
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  cursor: pointer;
+  /* background-color: blue; */
+  transition: all .5S;
+}
+.uploadbutton:hover
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(67, 120, 255);
+  /* background-color: blue; */
+}
+.info
+{
+  /* background-color: blueviolet; */
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 30px;
+  background-color: #ff981a;
+}
+.info div 
+{
+  margin: 5px;
+}
+.info div input
+{
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(44, 44, 44);
+  transition: all .1s;
+
+}
+.info div input:focus
+{
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  background-color: white;
+}
+.rates
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ratelabel
+{
+  width: 50%;
+  text-align: left;
+}
+.stars
+{
+  width: 50%;
+}
+.Submit-form
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Submit-form input
+{
+  /* width: 20%; */
+  padding: 10px 20px;
+  margin: 0px 90px 50px 90px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid black;
+  cursor: pointer;
+transition: .5s;
+}
+.Submit-form input:hover
+{
+  /* width: 20%; */
+  padding: 15px 30px;
+  margin: 0px 90px 50px 90px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+}

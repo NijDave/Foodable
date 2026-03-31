@@ -1,0 +1,170 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.profilearea
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(20, 20, 20);
+
+}
+.profilearea form
+
+{
+    border: 1px solid black;
+    border-radius: 20px;
+
+    width: 90%;
+    height: 85%;
+    display: flex;
+    background-color: rgb(35, 35, 35);
+
+}
+.imagearea
+{
+    width: 40%;
+    background-color: #ff981a;
+    border-radius: 20px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagetable
+{
+    width: 90%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.imagetable table
+{
+    width: 90%;
+    height: 80%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+#profileimage
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+#photo
+{
+    display: none;
+}
+#uploadbutton
+{
+    padding: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+#uploadbutton:hover
+{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+.likearea
+{
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.likesection
+{
+    background-color: rgb(36, 36, 36);
+    padding: 10px;
+    color: #ff981a;
+    border-radius: 20px;
+}
+.likesection:hover
+{
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.likesection a
+{
+    text-decoration: none;
+    color: #ff981a;
+    transition: .2s;
+}
+.likesection a:hover
+{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+.formarea
+{
+    color: white;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forminner
+{
+    width: 80%;
+    height: 90%;
+}
+.forminner table
+{
+    width: 95%;
+    height: 90%;
+}
+.inputname
+{
+    padding: 10px 60px 10px 5px;
+    border-radius: 20px;
+    border: none;
+    color: #ff981a;
+    background-color: rgb(35, 35, 35);
+    transition: .3s;
+}
+.inputname:hover
+{
+    padding: 10px 90px 10px 5px;
+        border-radius: 20px;
+        border: none;
+        color: #ff981a;
+        background-color: rgb(54, 54, 54);
+
+}
+#submitcol
+{
+
+    padding: 10px;
+}
+#submit
+{
+    padding: 10px 30px;
+    border: none;
+    transition: .1s;
+    color: #ff981a;
+    border: 5px solid white;
+    background-color: transparent;
+    cursor: pointer;
+}
+#submit:hover
+{
+    padding: 10px 40px;
+    color: white;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 4px solid #ff981a;
+}

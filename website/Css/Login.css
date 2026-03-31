@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.left {
+  /* background-color: yellow; */
+  width: 25%;
+  height: 100%;
+  background-color: rgb(25, 25, 25);
+  color: white;
+  display: inline;
+}
+.left div {
+  margin: 30px 10px;
+  text-align: center;
+}
+.leftlower {
+  background-color: crimson;
+}
+.logo img {
+  border-radius: 500px;
+  box-shadow: 0px 2.8px 2.2px rgba(0, 0, 0, 0.041),
+    0px 6.7px 5.3px rgba(0, 0, 0, 0.05), 0px 12.5px 10px rgba(0, 0, 0, 0.053),
+    0px 22.3px 17.9px rgba(0, 0, 0, 0.054),
+    0px 41.8px 33.4px rgba(0, 0, 0, 0.056), 0px 100px 80px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+}
+.pre {
+  text-align: center;
+}
+.SigninLogin {
+  background-color: transparent;
+  border: 5px solid white;
+  color: white;
+  padding: 10px 20px;
+  font-size: larger;
+  border-radius: 50px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0, 0, 0, 1);
+}
+.SigninLogin:hover {
+  background-color: white;
+  border: 2px solid rgb(0, 0, 0);
+  color: black;
+  margin: 5px;
+  padding: 5px 15px;
+  font-size: large;
+  font-weight: 900;
+}
+.footerright {
+  display: flexbox;
+  position: static;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+}
+.right {
+  /* background-color: rgb(0, 93, 84); */
+  width: 75%;
+  height: 100%;
+  background-color: #ff9d01;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginsection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url("/images/bg contacts.png"); */
+  background-color: rgb(25, 25, 25);
+  background-size: cover;
+  background-blend-mode: darken;
+  width: 900px;
+  height: 600px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.011),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.014),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.015),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.015),
+    100px 100px 80px rgba(0, 0, 0, 0.01);
+  border-radius: 10px;
+  margin: 0px;
+}
+.form-area {
+  width: 85%;
+  height: 60%;
+  /* background-color: aqua; */
+  padding: 50px;
+  text-align: center black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* border: 5px solid ; */
+  border-radius: 50px;
+  color: white;
+}
+.formheading {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.rdbuttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rdbuttons div {
+  margin: 0px 30px;
+}
+.username {
+  font-size: 20px;
+}
+.username input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.5s;
+}
+.username input:focus {
+  padding: 15px 70px 10px 10px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  background-color: rgb(33, 33, 33);
+}
+.password {
+  font-size: 20px;
+}
+.password input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.5s;
+}
+.password input:focus {
+  padding: 15px 70px 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  background-color: rgb(33, 33, 33);
+}
+.Logintype p {
+  text-align: center;
+  font-size: 20px;
+}
+.loginbutton {
+  text-align: center;
+  padding-top: 20px;
+}
+.loginbutton button {
+  padding: 10px 30px;
+  border: 5px solid rgb(255, 255, 255);
+  background-color: transparent;
+  font-weight: 700;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#checkCharity {
+  height: 25px;
+  width: 25px;
+  background-color: #ff3838;
+  border-radius: 50%;
+}
+.loginbutton button:hover {
+  padding: 10px 30px;
+  color: rgb(0, 0, 0);
+  border: 5px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  font-weight: 700;
+  border-radius: 50px;
+}

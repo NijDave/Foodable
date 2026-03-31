@@ -1,0 +1,15 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.card-container
+{
+    width: 80%;
+    margin: 4rem auto;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}

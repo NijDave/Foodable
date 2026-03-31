@@ -1,0 +1,85 @@
+.card-section
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.card
+{
+    position: relative;
+    width: 300px;
+    height: 243px;
+    margin: 5px 50px;
+    overflow: hidden;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    background-color: #ff981a;
+    transition: 1.2s;
+}
+.card:hover
+{
+    position: relative;
+    width: 300px;
+    height: 430px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 191, 0);
+    color: black;
+    transition: .4s;
+}
+.card .img
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-120px);
+}
+.imgbox img
+{
+    max-width: 220px;
+    height: 220px;
+    padding: 10px 0px;
+    border-radius: 10%;
+
+}
+.qr 
+{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: white;
+    text-align: center;
+}
+.qr img
+{
+    position: sticky;
+    
+    max-width: 150px;
+    max-height: 150px;
+    background-color: white;
+}
+.heading1
+{
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: rgba(20, 20, 20, 1);
+    border-bottom: 5px solid #ff981a;
+    color: white;
+}
+.heading2
+{
+    width: 100%;
+    margin: 45px 0px;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: rgba(20, 20, 20, 1);
+    border-top: 5px solid #ff981a;
+    border-bottom: 5px solid #ff981a;
+    color: white;
+}
